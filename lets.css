@@ -1,0 +1,676 @@
+.main{
+	background:url("https://p.w3layouts.com/demos_new/template_demo/26-02-2018/accounts-demo_Free/1629471147/web/images/banner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	height:680px;
+
+}
+.navbar-dark .navbar-brand{
+	font-size: 2.0rem;
+	font-weight: 600;
+}
+.bg-dark {
+    background-color: #151617 !important;
+}
+.navbar-dark .navbar-nav .nav-link{
+	margin-left:15px;
+	margin-right: 15px;
+
+	
+}
+/* .navbar .container{
+	position: relative;
+}
+#navbarSupportedContent{
+	position:absolute;
+	width:100%;
+	z-index: 9999;
+	top=130%;
+	
+} */
+
+.navbar-brand{
+	
+	padding-bottom: 0;
+	padding-top: 0;
+}
+.blue{
+	color:rgb(13, 193, 196);
+}
+
+.navbar a {
+	position: relative;
+	transition: all .3s; /* Vendor prefixes required in your code. */
+}
+.navbar a:hover{
+	color:rgb(13, 193, 196);
+}
+.navbar a:after {
+	transition: all .3s; /* Once again, vendor prefixes required. */
+}
+.navbar a:before{
+	transition: all .3s;
+}
+
+
+
+.brackets:before, .brackets:after {
+	position: absolute;
+	top: 5px;	
+	/* Value depends on your design. */
+	color: transparent;/* It makes the curly brackets invisible at the beginning.*/
+}
+.brackets:hover:before, .brackets:hover:after {
+	color: rgb(13, 193, 196); /* Or whatever colour you want. */
+}
+
+/* For movement */
+.brackets:before {
+	content: "[";
+	left: -15px;
+}
+.brackets:hover:before {
+	left: -5px;
+	
+}
+.brackets:after {
+	content: "]";
+	right: -15px;
+}
+.brackets:hover:after {
+	right: -5px;
+}
+
+
+
+
+.k{
+	
+	color:white;
+background-color: black;
+border:2px solid black;
+transition: all 0.5s;
+
+margin-right: 3px;
+margin-top: 15px;
+margin-bottom: 10px;
+margin-left: 10px;
+
+}
+
+.linabove{
+	margin-top:15px;	
+}
+.mail{
+	margin-right:.5rem;
+	color:white;
+	
+}
+
+.linabove a{
+	color:white;
+	transition: color 0.5s;
+	text-decoration:none; font-weight: 600;
+}
+.linabove a:link{
+color:white;
+text-decoration:none;}
+.linabove a:visited{
+color:white;
+text-decoration:none;}
+
+
+.linabove a:hover{
+color:rgb(13, 193, 196);
+text-decoration:none;
+}
+
+.linabove a:active{
+color:white;
+text-decoration:none;
+}
+/* .fa-facebook-f{
+color:white;
+background-color: black;
+border:2px solid black;
+transition: all 0.5s;
+margin-right:2px;
+margin-top:15px;
+} */
+
+.svg-inline--fa.k{
+	width:30px;
+	height:27px;
+	padding:4px;
+}
+.k:hover{
+color:rgb(13, 193, 196);
+background-color: transparent;
+border:1px solid rgb(13, 193, 196);
+}
+
+.inner1{
+	background-color: rgba(26, 27, 28, 0.4);
+		width:100%;
+		height:100%;
+}
+.slider{
+	color:white;
+	margin-top:15%;
+	width:100%;
+}
+.content h1{
+
+	margin-top:40px;
+	margin-left: 2rem;
+	font-size: 60px;
+}
+.content h4{
+	margin-left:2rem;
+}
+.fa-angle-left{
+	float:left;
+	margin-top: 58px;
+	cursor: pointer;
+}
+
+.fa-angle-right{
+	float:right;
+	margin-top:58px;
+	margin-right: 1px;
+	cursor: pointer;
+}
+.row{
+	width:100%;
+	margin:auto;
+}
+
+.content{
+	width:100%;
+}
+
+
+
+.tax h2{
+	text-align: center;
+	margin:70px auto ;
+	font-size:3.6rem;
+	font-family: 'Raleway', sans-serif;
+	font-weight:600;
+
+}
+.img-res{
+	width:100%;
+	
+	height: 24rem;
+}
+
+.tax p{
+	color:rgb(134, 122, 122);
+	margin-bottom:2rem;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: .05rem;
+}
+.tax label{
+	font-weight: 600;
+}
+
+
+
+/* calculate */
+.calculate{
+	
+	background-attachment: fixed;
+	margin: 70px auto;
+	width:100%;
+	
+	background-image: url("https://p.w3layouts.com/demos_new/template_demo/26-02-2018/accounts-demo_Free/1629471147/web/images/3.jpg");
+}
+
+.box{
+	margin-top:25%;
+	margin-bottom:25%;
+	height: 10rem;
+	background-color:rgba(87,88,90,0.6);
+	
+
+	
+}
+.ic{
+	height: 7rem;
+    font-size: 2.5rem;
+	color: rgb(6, 154, 168);
+	margin-left: 1rem;
+}
+
+
+.moving{
+	float: right;
+    font-size: 2em;
+    margin-top: 1em;
+    margin-right: 2rem;
+    font-weight: 600;
+    color: white;
+}
+.box h4{
+	text-align: center;
+	color: white;
+	font-weight: 500;
+	letter-spacing:.3rem;
+}
+
+
+
+
+/* services */
+.services h2{
+	text-align: center;
+	margin:70px auto ;
+	font-size:3.6rem;
+	font-family: 'Raleway', sans-serif;
+	font-weight:600;
+
+}
+.division{
+	text-align: center;
+}
+.heading{
+	color: rgb(13, 193, 196);
+}
+.services p{
+	color:rgb(134, 122, 122);
+	margin-bottom:2rem;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: .05rem;
+}
+.division:hover h3{
+	color:rgb(13, 193, 196);
+
+}
+
+
+
+/* show */
+.show1 h2{
+	text-align: center;
+	padding-top: 34px;
+	margin:5% auto;
+	font-size:70px;
+	font-family: 'Raleway', sans-serif;
+	font-weight:600;
+	color:white;
+
+}
+.show1{
+	background-image: url("https://p.w3layouts.com/demos_new/template_demo/26-02-2018/accounts-demo_Free/1629471147/web/images/2.jpg");
+   background-attachment: fixed;
+   width:100%;
+   
+   
+}
+
+.owl-carousel .owl-item img{
+	width:90%;
+	
+	margin:3% auto;
+
+}
+.owl-nav span{
+	font-size: 2rem;
+    font-weight: 800;
+    
+    color: white;
+    background-color:rgb(13, 193, 196);
+    padding: 0px 1.5rem;
+}
+.owl-theme .owl-nav [class*=owl-]:hover{
+	background: transparent;
+	
+}
+.owl-theme .owl-nav [class*=owl-]:focus{
+	outline: none;
+  }
+  
+  .owl-theme .owl-dot:focus{
+	outline: none;
+  }
+
+/* price-table */
+.price h2{
+	text-align: center;
+	margin:70px auto ;
+	font-size:3.6rem;
+	font-family: 'Raleway', sans-serif;
+	font-weight:600;
+
+}
+.data-head{
+	background-color:rgb(13, 193, 196);
+	color:white; 
+	padding-bottom: 0.3rem;
+	padding-top:0.6rem;
+	text-align: center;
+}
+.data-content{
+	text-align: center;
+}
+
+.data-content h3{
+	margin:2rem auto;
+	font-size: 4rem;
+}
+.data-content ul{
+	list-style-type: none;
+	padding:0;
+}
+.data-content li{
+	font-weight: 500;
+	padding:0.46rem;
+}
+.data{
+	border:1px solid rgba(0,0,0,0.2);
+	transition: box-shadow 0.7s;
+}
+.data:hover{
+	box-shadow: inset 0 0 40px rgba(0,0,0,0.2), 0 20px 50px rgba(0,0,0,0.7);
+}
+
+
+
+/* footer */
+.tweet{
+	display: inline;
+	
+}
+.tweets span{
+	margin-right: 1.2rem;
+	color:rgb(13, 193, 196);
+}
+.footer{
+	margin-top:10%;
+	background-color: rgb(16, 16, 16);
+	color: white;
+	padding-top:6rem;
+	padding-bottom: 4rem;
+}
+.footer h2{
+	margin-bottom: 2rem;
+	/* border-bottom: 2px solid rgb(13, 193, 196); */
+}
+hr{
+	margin-top: -2rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 2px solid rgb(13, 193, 196);
+    width: 4rem;
+    margin-left: 0;
+}
+.footer li{
+	margin-bottom: 1.2rem;
+	font-size: 1.2rem;
+
+}
+.collage{
+	float: left;
+    width: 33.33%;
+    border: 2px solid #fff;
+}
+.footer li a{
+	color:white;
+	transition: color 0.5s;
+	text-decoration:none; font-weight: 600;
+}
+.footer li a:link{
+color:white;
+text-decoration:none;}
+.footer li a:visited{
+color:white;
+text-decoration:none;}
+
+
+.footer li a:hover{
+color:rgb(13, 193, 196);
+text-decoration:none;
+}
+
+.footer li a:active{
+color:white;
+text-decoration:none;
+}
+
+@media(max-width: 767.98px){
+	
+    /* .navbar-dark .navbar-nav .nav-link{
+    	margin-left:40%;
+    } */
+    .linabove{
+    	text-align: center;
+ }
+.lin{
+	text-align: center;
+}
+/* .navbar>.container{
+	position: relative;
+}
+.collapse.show{
+	position:absolute;
+	width:100%;
+	z-index: 9999;
+	top:130%;
+	background-color:black;
+} */
+.brackets:before {
+			
+	left: 38%;
+}
+.brackets:hover:before {
+	left: 40%;
+	
+}
+.brackets:after {
+	
+	right: 38%;
+}
+.brackets:hover:after {
+	right: 40%;
+}
+.tax p{
+	text-align: center;
+}
+}
+@media(max-width:575.98px){
+	.content h1{
+		font-size: 30px;
+	}
+	.content h4{
+		font-size: 15px;
+	}
+.main{
+	height:500px;
+}
+
+.img-res{
+	height:15rem;
+}
+.moving{
+
+font-size: 1.4em;
+float:none;
+margin-top: 0;
+margin-right: 0;
+
+}
+.flex-container{
+	display:flex;
+flex-direction: column;
+justify-content: center;
+}
+.ic{
+	font-size: 1.6rem;
+    margin-top: -26px;
+	margin-bottom: -30px;
+	margin-left:0;
+}
+.box{
+	text-align: center;
+	height: 8.6rem;;
+		margin-top: 20%;
+		margin-bottom: 17%;
+	
+}
+.box h4{
+	font-size:1rem;
+	letter-spacing: 0;
+}
+
+.brackets:before {
+			
+	left: 26%;
+}
+.brackets:hover:before {
+	left: 24%;
+	
+}
+.brackets:after {
+	
+	right: 26%;
+}
+.brackets:hover:after {
+	right: 24%;
+}
+.tax h2{
+	font-size: 2.1rem;
+    margin: 50px auto;
+}
+.price h2{
+	font-size: 2.1rem;
+    margin: 50px auto;
+}
+.tax p{
+	font-size: 13px;
+   
+}
+.services h2{
+	font-size: 2.5rem;
+    margin: 50px auto;
+}
+.services h3{
+	font-size: 1.3rem;
+
+}
+.services p{
+	font-size: 0.8rem;
+}
+.show1 h2{
+	font-size: 2.5rem;
+    margin: 50px auto;
+}
+.owl-carousel .owl-item img{
+	margin:2% auto;
+}
+.owl-nav span{
+	font-size: 0.8rem;
+	padding:0 0.6rem;
+}
+
+.data{
+	width:86%;
+	margin:1rem auto;
+}
+.data-content{
+	text-align: center;
+}
+
+.data-content h3{
+	margin: 1rem auto;
+    font-size: 3rem;
+}
+
+}
+.data-content li{
+	font-weight: 500;
+   
+    padding-top: 0.1rem;
+    padding-bottom: 0.3rem;
+}
+}
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	
+	.moving{
+
+		font-size: 1.4em;
+		float:none;
+		margin-top: 0;
+		margin-right: 0;
+		
+		}
+		.flex-container{
+			display:flex;
+		flex-direction: column;
+		justify-content: center;
+		}
+		.ic{
+		
+			font-size: 1.6rem;
+    margin-top: -21px;
+	margin-bottom: -27px;
+	margin-left: 0;
+		}
+		.box h4{
+        font-size: 1.2rem;
+		}
+		.box{
+			text-align: center;
+		}
+		.brackets:before {
+			
+			left: 40%;
+		}
+		.brackets:hover:before {
+			left: 43%;
+			
+		}
+		.brackets:after {
+			
+			right: 40%;
+		}
+		.brackets:hover:after {
+			right: 43%;
+		}
+		
+ }
+
+ @media(max-width:992px){
+	 .navbar>.container{
+			position: relative;
+		}
+		.navbar-collapse{
+			position:absolute;
+			width:100%;
+			z-index: 9999;
+			top:130%;
+			background-color:#151617;
+		}
+
+		.navbar-collapse a.nav-link{
+			text-align: center;
+		}
+		
+ }
+ @media (min-width: 576px) and (max-width: 767.98px){
+	.content h1{
+		font-size: 51px;
+	}
+	.content h4{
+		font-size: 18px;
+	}
+	.box{
+		margin-top: 20%;
+		margin-bottom: 17%;
+	}
+	.data-content h3{
+	
+		font-size: 3.4rem;
+	}
+ }
