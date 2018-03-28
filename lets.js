@@ -53,10 +53,8 @@ l=setInterval(animate,3000);
 
 
 
-
-
 $(document).ready(function(){
-
+	
 	$('.owl-two').owlCarousel({
 	  animateOut: 'slideOutLeft',
 	  animateIn: 'slideInRight',
@@ -71,3 +69,24 @@ $(document).ready(function(){
 	  nav:true
 	});      
   });
+
+
+  var top1 = document.querySelector("#top");
+  animate1();
+  top1.addEventListener('click',function(){
+	$("html, body").animate({ scrollTop: 0 }, 500);
+  });
+  
+  function animate1(){
+	if(window.pageYOffset > window.innerHeight/2){
+	  top1.style.right = "4px";
+	  top1.style.bottom = "2px";
+	}
+	else{
+	  top1.style.right = "-50px";
+	  top1.style.bottom = "-50px";
+	}
+	requestAnimationFrame(animate1);
+  }
+
+ 

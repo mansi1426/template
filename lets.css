@@ -46,6 +46,9 @@
 .navbar a:hover{
 	color:rgb(13, 193, 196);
 }
+.navbar a:active{
+	color:rgb(13, 193, 196);
+}
 .navbar a:after {
 	transition: all .3s; /* Once again, vendor prefixes required. */
 }
@@ -58,8 +61,14 @@
 .brackets:before, .brackets:after {
 	position: absolute;
 	top: 5px;	
+	
+	color: transparent;
+}
+.brackets1:before, .brackets1:after {
+	position: absolute;
+	top: 5px;	
 	/* Value depends on your design. */
-	color: transparent;/* It makes the curly brackets invisible at the beginning.*/
+	color: rgb(13, 193, 196);/* It makes the curly brackets invisible at the beginning.*/
 }
 .brackets:hover:before, .brackets:hover:after {
 	color: rgb(13, 193, 196); /* Or whatever colour you want. */
@@ -70,6 +79,10 @@
 	content: "[";
 	left: -15px;
 }
+.brackets1:before {
+	content: "[";
+	left: -5px;
+}
 .brackets:hover:before {
 	left: -5px;
 	
@@ -78,10 +91,14 @@
 	content: "]";
 	right: -15px;
 }
+
+.brackets1:after {
+	content: "]";
+	right: -5px;
+}
 .brackets:hover:after {
 	right: -5px;
 }
-
 
 
 
@@ -438,6 +455,34 @@ text-decoration:none;
 color:white;
 text-decoration:none;
 }
+#top{
+	height: 50px;
+	width: 50px;
+	position: fixed;
+	bottom: -50px;
+	right: -50px;
+	background-color: rgba(23, 72, 67, 0.78);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	border-radius: 8px;
+	box-shadow: 2px -1px 3px rgba(0,0,0,0.5);
+	transition-property: bottom left;
+	transition-duration: 0.6s;
+	transition-timing-function: cubic-bezier(.34,1.11,.8,1.4);
+	z-index: 1030;
+}
+
+#top span{
+	font-size: 18px;
+	font-weight: 500;
+	color: white;
+}
+
+#top:hover{
+	cursor: pointer;
+}
 
 @media(max-width: 767.98px){
 	
@@ -464,6 +509,10 @@ text-decoration:none;
 			
 	left: 38%;
 }
+.brackets1:before {
+			
+	left: 40%;
+}
 .brackets:hover:before {
 	left: 40%;
 	
@@ -471,6 +520,10 @@ text-decoration:none;
 .brackets:after {
 	
 	right: 38%;
+}
+.brackets1:after{
+			
+	right: 40%;
 }
 .brackets:hover:after {
 	right: 40%;
@@ -526,18 +579,26 @@ justify-content: center;
 
 .brackets:before {
 			
-	left: 26%;
+	left: 22%;
 }
 .brackets:hover:before {
-	left: 24%;
+	left: 26%;
 	
+}
+.brackets1:before {
+			
+	left: 26%;
+}
+.brackets1:after {
+			
+	right: 26%;
 }
 .brackets:after {
 	
-	right: 26%;
+	right: 22%;
 }
 .brackets:hover:after {
-	right: 24%;
+	right: 26%;
 }
 .tax h2{
 	font-size: 2.1rem;
@@ -587,7 +648,7 @@ justify-content: center;
     font-size: 3rem;
 }
 
-}
+
 .data-content li{
 	font-weight: 500;
    
@@ -636,6 +697,14 @@ justify-content: center;
 			right: 40%;
 		}
 		.brackets:hover:after {
+			right: 43%;
+		}
+		.brackets1:before {
+			
+			left: 43%;
+		}
+		.brackets1:after {
+			
 			right: 43%;
 		}
 		
